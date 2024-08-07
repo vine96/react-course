@@ -1,12 +1,13 @@
-function Menu(){
-    let baseName = '/react-course'
- return (
+import { Link } from "react-router-dom";
+
+function Menu() {
+  return (
     <div>
-        <a href="/">Home</a>&nbsp;&nbsp;
-        <a href={baseName + "/sobre"}>Sobre</a>&nbsp;&nbsp;
-        <a href={baseName + "/contato"}>Contato</a>
+      <Link to="/">Home</Link>&nbsp;&nbsp;
+      <Link to="/sobre">Sobre</Link>&nbsp;&nbsp;
+      <Link to="/contato">Contato</Link>
     </div>
- )   
+  );
 }
 
-export default Menu
+export default Menu;

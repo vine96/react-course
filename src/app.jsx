@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 function App(){
   return (
     <div>
-      <BrowserRouter basename="/react-course/">
+      <BrowserRouter basename="/react-course">
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/sobre" element={<About/>}/>
