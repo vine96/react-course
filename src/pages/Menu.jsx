@@ -1,9 +1,10 @@
 function Menu(){
+    let baseName = '/react-course'
  return (
     <div>
         <a href="/">Home</a>&nbsp;&nbsp;
-        <a href="/sobre">Sobre</a>&nbsp;&nbsp;
-        <a href="/contato">Contato</a>
+        <a href={baseName + "/sobre"}>Sobre</a>&nbsp;&nbsp;
+        <a href={baseName + "/contato"}>Contato</a>
     </div>
  )   
 }
